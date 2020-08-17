@@ -1,8 +1,3 @@
-# надо тока один  их портов отключить в конфишупраайцмм
-# https://www.electronicwings.com/raspberry-pi/raspberry-pi-uart-communication-using-python-and-c
-
-#https://pimylifeup.com/raspberry-pi-serial/
-
 import serial
 from time import sleep
 
@@ -15,3 +10,6 @@ while True:
     print (received_data)                   #print received data
     ser.write(received_data)                #transmit data serially 
 
+#    usefull links 
+# https://www.electronicwings.com/raspberry-pi/raspberry-pi-uart-communication-using-python-and-c
+#https://pimylifeup.com/raspberry-pi-serial/
